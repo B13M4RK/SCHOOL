@@ -2,6 +2,8 @@
 
 # Schloss Gaienhofen - Oberstufe
 
+Paul Dreißig
+
 ## Kurse
 
 Das ist mein Repo für die Oberstufe an der Schlossschule.
