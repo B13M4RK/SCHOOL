@@ -26,11 +26,12 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 Kapitel 1 - Name
 
 * [Zusammenfassung](./Physics/CHA_01_NAME/PHY_SUM_01_NAME.odt)
-* [Aufgaben](./Physics/CHA_01_NAME/PHY_EXE_01_NAME.odt)
+* [Aufgaben](./Physics/CHA_01_NAME/PHY_EXE_01.odt)
 
 Kapitel 2 - Name
 
-* [Kapitel 02: Name](./Physics/CHA_02_NAME/PHY_SUM_02_NAME.odt)
+* [Zusammenfassung](./Physics/CHA_02_NAME/PHY_SUM_02_NAME.odt)
+* [Aufgaben](./Physics/CHA_02_NAME/PHY_EXE_02.odt)
 
 🧪 Experimente
 
