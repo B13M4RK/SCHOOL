@@ -13,6 +13,7 @@ git add .
 if ! git diff-index --quiet HEAD --; then
     git commit -m "Automatisches Backup vom $DATUM"
     git push origin main
+    notify-send "Git Backup" "Schulordner erfolgreich auf GitHub gesichert!" -i display
 fi
 
-notify-send "Git Backup" "Schulordner erfolgreich auf GitHub gesichert!" -i display
+
