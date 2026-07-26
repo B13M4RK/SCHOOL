@@ -122,7 +122,7 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 
 ---
 
-## 🔄 Projekt Herunterladen
+## 📥 Projekt Herunterladen
 
 * Git Clone (zum Updaten bis AUG 2028)
 
@@ -138,7 +138,7 @@ unzip main.zip
 rm main.zip
 ```
 
-## Projekt Hochladen
+## 📤 Projekt Hochladen
 
 1. Code kopieren und ins Terminal einfügen.
 2. GitHub-Seite neu laden.
