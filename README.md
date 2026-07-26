@@ -1,7 +1,5 @@
-<div style="display: flex; align-items: center; gap: 15px;">
-  <img src="./img/Turmkreuz.png" alt="Logo" height="50">
-  <h1 style="margin: 0; border: none; padding: 0;">Oberstufe</h1>
-</div>
+<img src="./img/Turmkreuz.png" alt="Logo" height="50">
+# Schloss Gaienhofen - Oberstufe
 
 ## Kurse
 
