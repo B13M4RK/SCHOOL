@@ -24,9 +24,9 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 <br>
 
 <details>
-* <summary>📚 Kapitel</summary>
+<summary>📚 Kapitel</summary>
 
- * [Kapitel 01: Name](./Physics/CHA_01_NAME)
+* [Kapitel 01: Name](./Physics/CHA_01_NAME)
 * [Kapitel 02: Name](./Physics/CHA_02_NAME)
 
 </details>
