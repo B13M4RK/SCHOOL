@@ -5,6 +5,9 @@
   # Evangelische Schule Schloss Gaienhofen
   ### Oberstufe • Digitales Kursheft
   
+  ![Last Commit](https://img.shields.io/github/last-commit/B13M4RK/SCHOOL?style=flat-square&color=blue)
+  ![License](https://img.shields.io/badge/Abitur-2028-orange?style=flat-square)
+  
   **Autor:** Paul Dreißig
 
 </div>
