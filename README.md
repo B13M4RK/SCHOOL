@@ -38,8 +38,6 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 
 </details>
 
-<br>
-
 * [📄 Formelsammlung (ODT)](./Physics/PHY_FOR.odt)
 
 </details>
