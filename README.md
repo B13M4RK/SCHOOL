@@ -21,9 +21,25 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 
 <details>
 <summary><b>⚡ Physik</b></summary>
+<br>
+
+<details>
+<summary>📚 Kapitel</summary>
 
 * [Kapitel 01: Name](./Physics/CHA_01_NAME)
 * [Kapitel 02: Name](./Physics/CHA_02_NAME)
+
+</details>
+
+<details>
+<summary>🧪 Experimente</summary>
+
+* [🧪 PHY_EXP_01_NAME](./Physics/PHY_EXP_01_NAME)
+
+</details>
+
+<br>
+
 * [📄 Formelsammlung (ODT)](./Physics/PHY_FOR.odt)
 
 </details>
