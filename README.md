@@ -108,7 +108,21 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 
 ---
 
-## 🔄 Projekt aktualisieren
+## 🔄 Projekt Herunterladen
+
+* Git Clone
+
+```bash
+git clone https://github.com/B13M4RK/SCHOOL.git
+```
+* Download Zip
+```bash
+curl -L -O https://github.com/B13M4RK/SCHOOL/archive/refs/heads/main.zip
+unzip main.zip
+cd SCHOOL-main
+```
+
+### Projekt Hochladen
 
 1. Code kopieren und ins Terminal einfügen.
 2. GitHub-Seite neu laden.
@@ -119,3 +133,4 @@ git add .
 git commit -m "Update Schulunterlagen"
 git push
 cd
+```
