@@ -1,7 +1,7 @@
 # Oberstufe
 
 Das ist mein Repo für die Oberstufe an der Schlossschule.
-Hier geht es zu allen Fächern die ich besuche:
+Hier geht es zu allen Kursen die ich besuche:
 
 ## Leistungskurse
 * **Physik**
