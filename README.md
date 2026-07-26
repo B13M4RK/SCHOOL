@@ -8,3 +8,8 @@ Hier geht es zu allen Fächern die ich besuche:
   * [Kapitel 01: Name](./Physics/CHA_01_NAME)
   * [Kapitel 02: Name](./Physics/CHA_02_NAME)
   * [Formelsammlung  ](./Physics/CHA_01_NAME)
+  
+## Sprachen
+* **Deutsch**
+  * [Kapitel 01: Name](./German/CHA_01_NAME)
+  * [Kapitel 02: Name](./German/CHA_02_NAME)
