@@ -1,7 +1,5 @@
 # Oberstufe
 
----
-
 ## Kurse
 
 Das ist mein Repo für die Oberstufe an der Schlossschule.
@@ -89,8 +87,6 @@ Hier geht es zu allen Kursen, die ich besuche:
 </details>
 
 </details>
-
----
 
 ## Notenübersicht
 
