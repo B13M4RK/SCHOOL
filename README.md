@@ -53,7 +53,13 @@ Kapitel 2 - Name
 <details>
 <summary><b>🇬🇧 Englisch</b></summary>
 
+Kapitel 1 - Name
+
 * [Kapitel 01: Name](./English/CHA_01_NAME)
+
+Essays
+
+* [01 - Name](./English/ENG_ESS_01_NAME)
 
 </details>
 
