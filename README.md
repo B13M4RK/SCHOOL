@@ -113,10 +113,12 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 * Git Clone
 
 ```bash
+cd Downloads
 git clone https://github.com/B13M4RK/SCHOOL.git
 ```
 * Download Zip
 ```bash
+cd Downloads
 curl -L -O https://github.com/B13M4RK/SCHOOL/archive/refs/heads/main.zip
 unzip main.zip
 cd SCHOOL-main
