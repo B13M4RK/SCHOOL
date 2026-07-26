@@ -1,4 +1,5 @@
 <img src="./img/Turmkreuz.png" alt="Logo" height="50">
+
 # Schloss Gaienhofen - Oberstufe
 
 ## Kurse
@@ -105,3 +106,15 @@ git commit -m "Nachricht"
 git push
 cd
 ```
+Das ist mein Repo für die Oberstufe an der Schlossschule.
+Hier geht es zu allen Kursen, die ich besuche:
+
+<details>
+<summary><b>Leistungskurse</b></summary>
+
+<details>
+<summary><b>Physik</b></summary>
+
+* [Kapitel 01: Name](./Physics/CHA_01_NAME)
+* [Kapitel 02: Name](./Physics/CHA_02_NAME)
+* [Formelsammlun
