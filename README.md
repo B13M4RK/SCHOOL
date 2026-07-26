@@ -1,7 +1,7 @@
-<p align="left">
-  <img src="./img/Turmkreuz.png" alt="Logo" height="50" align="center">
-  <strong style="font-size: 32px; vertical-align: middle; margin-left: 10px;">Oberstufe</strong>
-</p>
+<div style="display: flex; align-items: center; gap: 15px;">
+  <img src="./img/Turmkreuz.png" alt="Logo" height="50">
+  <h1 style="margin: 0; border: none; padding: 0;">Oberstufe</h1>
+</div>
 
 ## Kurse
 
