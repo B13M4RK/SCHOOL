@@ -34,11 +34,11 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 <details>
 <summary>🧪 Experimente</summary>
 
-* [🧪 PHY_EXP_01_NAME](./Physics/PHY_EXP_01_NAME)
+* [🧪 01 - Wasserstofffusion](./Physics/PHY_EXP_01_NAME)
 
 </details>
 
-* [📄 Formelsammlung (ODT)](./Physics/PHY_FOR.odt)
+* [📄 Formelsammlung (ODT`)](./Physics/PHY_FOR.odt)
 
 </details>
 
