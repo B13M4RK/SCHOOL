@@ -124,13 +124,13 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 
 ## 📥 Projekt Herunterladen
 
-* Git Clone (zum Updaten bis AUG 2028)
+Git Clone (zum Updaten bis AUG 2028)
 
 ```bash
 cd Downloads
 git clone https://github.com/B13M4RK/SCHOOL.git
 ```
-* Download Zip (einmalig)
+Download Zip (einmalig)
 ```bash
 cd Downloads
 curl -L -O https://github.com/B13M4RK/SCHOOL/archive/refs/heads/main.zip
