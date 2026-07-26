@@ -72,50 +72,50 @@ Essays
 <details>
 <summary><b>✍️ Deutsch</b></summary>
 
-* [Kapitel 01: Name](./German/CHA_01_NAME)
-* [Kapitel 02: Name](./German/CHA_02_NAME)
+* [Kapitel 01: Name](./German/CHA_01_NAME.pdf)
+* [Kapitel 02: Name](./German/CHA_02_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>🏛️ Geschichte</b></summary>
 
-* [Kapitel 01: Name](./History/CHA_01_NAME)
+* [Kapitel 01: Name](./History/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>⚖️ Gemeinschaftskunde</b></summary>
 
-* [Kapitel 01: Name](./GK/CHA_01_NAME)
+* [Kapitel 01: Name](./GK/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>⛪ Religion</b></summary>
 
-* [Kapitel 01: Name](./Religion/CHA_01_NAME)
+* [Kapitel 01: Name](./Religion/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>🎨 Kunst</b></summary>
 
-* [Kapitel 01: Name](./Kunst/CHA_01_NAME)
+* [Kapitel 01: Name](./Kunst/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>⚽ Sport</b></summary>
 
-* [Kapitel 01: Name](./Sport/CHA_01_NAME)
+* [Kapitel 01: Name](./Sport/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>🔭 Astronomie</b></summary>
 
-* [Kapitel 01: Name](./Astronomie/CHA_01_NAME)
+* [Kapitel 01: Name](./Astronomie/CHA_01_NAME.pdf)
 
 </details>
 
@@ -125,7 +125,7 @@ Essays
 
 ## 📊 Notenübersicht
 
-* [📊 Notentabelle öffnen](./grades.ods)
+* [📊 Notentabelle öffnen](./grades.pdf)
 
 ---
 
@@ -149,18 +149,16 @@ rm main.zip
 
 1. Code kopieren und ins Terminal einfügen.
 2. GitHub-Seite neu laden.
-
 ```bash
 #!/bin/bash
 
 # 1. In den Schulordner wechseln
 cd ~/Documents/School || exit
 
-# 2. Alte PDFs löschen, damit keine alten Stände oder gelöschte Dateien als Waise bleiben
+# 2. Alte PDFs löschen, damit keine Karteileichen bleiben
 find . -type f -name "*.pdf" -delete
 
-# 3. Alle LibreOffice-Dateien (.odt, .ods, .odp, .odg, .odb, .odf) suchen 
-# und direkt im jeweiligen Zielordner als PDF speichern
+# 3. Alle LibreOffice-Dateien suchen und als PDF neu speichern
 find . -type f \( -name "*.odt" -o -name "*.ods" -o -name "*.odp" -o -name "*.odg" -o -name "*.odb" -o -name "*.odf" \) | while read -r FILE; do
     DIR=$(dirname "$FILE")
     libreoffice --headless --convert-to pdf "$FILE" --outdir "$DIR" 2>/dev/null
@@ -169,7 +167,7 @@ done
 # 4. Datum und Uhrzeit holen
 DATUM=$(date +"%d.%m.%Y - %H:%M Uhr")
 
-# 5. Alle Dateien (inkl. der erzeugten PDFs) vormerken
+# 5. Alle Dateien (inkl. erzeugter PDFs) vormerken
 git add .
 
 # 6. Nur committen und pushen, wenn es Änderungen gab
@@ -178,5 +176,4 @@ if ! git diff-index --quiet HEAD --; then
     git push origin main
     notify-send "Git Backup" "Schulordner & PDFs erfolgreich gesichert!" -i document-save
 fi
-
 ```
