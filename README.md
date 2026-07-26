@@ -50,7 +50,7 @@ Hier geht es zu allen Kursen, die ich besuche:
 </details>
 
 <details>
-<summary><b>Gemeinschaftskunde (GK)</b></summary>
+<summary><b>Gemeinschaftskunde</b></summary>
 
 * [Kapitel 01: Name](./GK/CHA_01_NAME)
 
