@@ -1,10 +1,10 @@
 # Oberstufe
 
-Das ist mein Repo für die Oberstufe an der Schlossschule.  
+Das ist mein Repo für die Oberstufe an der Schlossschule.
 Hier geht es zu allen Kursen, die ich besuche:
 
 <details>
-<summary><h2>⚡ Leistungskurse (Klicken zum Ausklappen)</h2></summary>
+<summary><b>Leistungskurse</b></summary>
 
 * **Physik**
   * [Kapitel 01: Name](./Physics/CHA_01_NAME)
@@ -16,7 +16,7 @@ Hier geht es zu allen Kursen, die ich besuche:
 </details>
 
 <details>
-<summary><h2>📚 Grundkurse (Klicken zum Ausklappen)</h2></summary>
+<summary><b>Grundkurse</b></summary>
 
 * **Deutsch**
   * [Kapitel 01: Name](./German/CHA_01_NAME)
@@ -32,6 +32,6 @@ Hier geht es zu allen Kursen, die ich besuche:
 
 ---
 
-### 📊 Notenübersicht
-Meine Noten und Notenschnitte verwalte ich separat in dieser Datei:  
-👉 [**grades.ods (Notentabelle öffnen)**](./grades.ods)
+## Notenübersicht
+
+[Notendatei öffnen (grades.ods)](./grades.ods)
