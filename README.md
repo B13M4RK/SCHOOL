@@ -151,9 +151,30 @@ rm main.zip
 2. GitHub-Seite neu laden.
 
 ```bash
-cd ~/Documents/School
+GNU nano 7.2   /home/paul/Documents/School/backup.sh            
+#!/bin/bash
+
+# 1. In den Schulordner wechseln
+cd ~/Documents/School || exit
+
+# 2. Alle LibreOffice-Dateien (.odt, .ods, .odp, .odg, .odb, .odf>
+# und direkt im jeweiligen Zielordner als PDF speichern
+find . -type f \( -name "*.odt" -o -name "*.ods" -o -name "*.odp">
+    DIR=$(dirname "$FILE")
+    libreoffice --headless --convert-to pdf "$FILE" --outdir "$DI>
+done
+
+# 3. Datum und Uhrzeit holen
+DATUM=$(date +"%d.%m.%Y - %H:%M Uhr")
+
+# 4. Alle Dateien (inkl. der erzeugten PDFs) vormerken
 git add .
-git commit -m "Update Schulunterlagen"
-git push
-cd
+
+# 5. Nur committen und pushen, wenn es Änderungen gab
+if ! git diff-index --quiet HEAD --; then
+    git commit -m "Automatisches Backup vom $DATUM"
+    git push origin main
+    notify-send "Git Backup" "Schulordner & PDFs erfolgreich gesi>
+fi
+
 ```
