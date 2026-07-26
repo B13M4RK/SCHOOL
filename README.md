@@ -35,11 +35,11 @@ Kapitel 2 - Name
 
 🧪 Experimente
 
-* [🧪 01 - Wasserstofffusion](./Physics/PHY_EXP_01_NAME)
+* [🧪 01 - Name](./Physics/PHY_EXP_01_NAME)
 
 <br>
 
-* [📄 Formelsammlung (ODT`)](./Physics/PHY_FOR.odt)
+* [📄 Formelsammlung](./Physics/PHY_FOR.odt)
 
 </details>
 
@@ -119,7 +119,7 @@ Kapitel 2 - Name
 
 ## 📊 Notenübersicht
 
-* [📊 Notentabelle öffnen (`grades.ods`)](./grades.ods)
+* [📊 Notentabelle öffnen](./grades.ods)
 
 ---
 
