@@ -1,19 +1,8 @@
 # Oberstufe
 
-=========
+---
 
-<details>
-<summary><b>Projekt hochladen</b></summary>
-
-```bash
-cd ~/Documents/School
-git add .
-git commit -m "Nachricht"
-git push
-cd
-```
-
-</details>
+## Kurse
 
 Das ist mein Repo für die Oberstufe an der Schlossschule.
 Hier geht es zu allen Kursen, die ich besuche:
@@ -106,3 +95,15 @@ Hier geht es zu allen Kursen, die ich besuche:
 ## Notenübersicht
 
 [Noten](./grades.ods)
+
+## Projekt updaten
+
+```bash
+cd ~/Documents/School
+git add .
+git commit -m "Nachricht"
+git push
+cd
+```
+
+</details>
