@@ -122,7 +122,7 @@ unzip main.zip
 cd SCHOOL-main
 ```
 
-### Projekt Hochladen
+## Projekt Hochladen
 
 1. Code kopieren und ins Terminal einfügen.
 2. GitHub-Seite neu laden.
