@@ -1,35 +1,42 @@
-<img src="./img/Turmkreuz.png" alt="Logo" height="50">
+<div align="center">
 
-# Schloss Gaienhofen - Oberstufe
+  <img src="./img/Turmkreuz.png" alt="Logo" height="80">
 
-Paul Dreißig
+  # Evangelische Schule Schloss Gaienhofen
+  ### Oberstufe • Digitales Kursheft
+  
+  **Autor:** Paul Dreißig
 
-## Kurse
+</div>
 
-Das ist mein Repo für die Oberstufe an der Schlossschule.
-Hier geht es zu allen Kursen, die ich besuche:
+---
+
+## 📚 Kurse & Fächer
+
+Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notizen, Materialien und Kapitel zu den einzelnen Kursen:
 
 <details>
-<summary><b>Leistungskurse</b></summary>
+<summary><b>🔥 Leistungskurse (LK)</b></summary>
+<br>
 
 <details>
-<summary><b>Physik</b></summary>
+<summary><b>⚡ Physik</b></summary>
 
 * [Kapitel 01: Name](./Physics/CHA_01_NAME)
 * [Kapitel 02: Name](./Physics/CHA_02_NAME)
-* [Formelsammlung](./Physics/PHY_FOR.odt)
+* [📄 Formelsammlung (ODT)](./Physics/PHY_FOR.odt)
 
 </details>
 
 <details>
-<summary><b>Mathematik</b></summary>
+<summary><b>📐 Mathematik</b></summary>
 
 * [Kapitel 01: Name](./Math/CHA_01_NAME)
 
 </details>
 
 <details>
-<summary><b>Englisch</b></summary>
+<summary><b>🇬🇧 Englisch</b></summary>
 
 * [Kapitel 01: Name](./English/CHA_01_NAME)
 
@@ -38,10 +45,11 @@ Hier geht es zu allen Kursen, die ich besuche:
 </details>
 
 <details>
-<summary><b>Grundkurse</b></summary>
+<summary><b>📖 Grundkurse (GK)</b></summary>
+<br>
 
 <details>
-<summary><b>Deutsch</b></summary>
+<summary><b>✍️ Deutsch</b></summary>
 
 * [Kapitel 01: Name](./German/CHA_01_NAME)
 * [Kapitel 02: Name](./German/CHA_02_NAME)
@@ -49,42 +57,42 @@ Hier geht es zu allen Kursen, die ich besuche:
 </details>
 
 <details>
-<summary><b>Geschichte</b></summary>
+<summary><b>🏛️ Geschichte</b></summary>
 
 * [Kapitel 01: Name](./History/CHA_01_NAME)
 
 </details>
 
 <details>
-<summary><b>Gemeinschaftskunde</b></summary>
+<summary><b>⚖️ Gemeinschaftskunde</b></summary>
 
 * [Kapitel 01: Name](./GK/CHA_01_NAME)
 
 </details>
 
 <details>
-<summary><b>Religion</b></summary>
+<summary><b>⛪ Religion</b></summary>
 
 * [Kapitel 01: Name](./Religion/CHA_01_NAME)
 
 </details>
 
 <details>
-<summary><b>Kunst</b></summary>
+<summary><b>🎨 Kunst</b></summary>
 
 * [Kapitel 01: Name](./Kunst/CHA_01_NAME)
 
 </details>
 
 <details>
-<summary><b>Sport</b></summary>
+<summary><b>⚽ Sport</b></summary>
 
 * [Kapitel 01: Name](./Sport/CHA_01_NAME)
 
 </details>
 
 <details>
-<summary><b>Astronomie</b></summary>
+<summary><b>🔭 Astronomie</b></summary>
 
 * [Kapitel 01: Name](./Astronomie/CHA_01_NAME)
 
@@ -92,31 +100,22 @@ Hier geht es zu allen Kursen, die ich besuche:
 
 </details>
 
-## Notenübersicht
+---
 
-[Noten](./grades.ods)
+## 📊 Notenübersicht
 
-## Projekt updaten
+* [📊 Notentabelle öffnen (`grades.ods`)](./grades.ods)
 
-1. Code kopieren und ins Terminal einfügen. 
-2. Github Seite neu laden.
+---
+
+## 🔄 Projekt aktualisieren
+
+1. Code kopieren und ins Terminal einfügen.
+2. GitHub-Seite neu laden.
 
 ```bash
 cd ~/Documents/School
 git add .
-git commit -m "Nachricht"
+git commit -m "Update Schulunterlagen"
 git push
 cd
-```
-Das ist mein Repo für die Oberstufe an der Schlossschule.
-Hier geht es zu allen Kursen, die ich besuche:
-
-<details>
-<summary><b>Leistungskurse</b></summary>
-
-<details>
-<summary><b>Physik</b></summary>
-
-* [Kapitel 01: Name](./Physics/CHA_01_NAME)
-* [Kapitel 02: Name](./Physics/CHA_02_NAME)
-* [Formelsammlun
