@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="./img/Turmkreuz" alt="Logo" width="60" style="vertical-align: middle; margin-right: 10px;" />
+  <img src="./img/Turmkreuz.png" alt="Logo" width="60" style="vertical-align: middle; margin-right: 10px;" />
   <span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Oberstufe</span>
 </p>
 
