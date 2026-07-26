@@ -25,28 +25,28 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 
 Kapitel 1 - Name
 
-* [Zusammenfassung](./Physics/CHA_01_NAME/PHY_SUM_01_NAME.odt)
-* [Aufgaben](./Physics/CHA_01_NAME/PHY_EXE_01.odt)
+* [Zusammenfassung](./Physics/CHA_01_NAME/PHY_SUM_01_NAME.pdf)
+* [Aufgaben](./Physics/CHA_01_NAME/PHY_EXE_01.pdf)
 
 Kapitel 2 - Name
 
-* [Zusammenfassung](./Physics/CHA_02_NAME/PHY_SUM_02_NAME.odt)
-* [Aufgaben](./Physics/CHA_02_NAME/PHY_EXE_02.odt)
+* [Zusammenfassung](./Physics/CHA_02_NAME/PHY_SUM_02_NAME.pdf)
+* [Aufgaben](./Physics/CHA_02_NAME/PHY_EXE_02.pdf)
 
 🧪 Experimente
 
-* [🧪 01 - Name](./Physics/PHY_EXP_01_NAME)
+* [🧪 01 - Name](./Physics/PHY_EXP_01_NAME.pdf)
 
 <br>
 
-* [📄 Formelsammlung](./Physics/PHY_FOR.odt)
+* [📄 Formelsammlung](./Physics/PHY_FOR.pdf)
 
 </details>
 
 <details>
 <summary><b>📐 Mathematik</b></summary>
 
-* [Kapitel 01: Name](./Math/CHA_01_NAME)
+* [Kapitel 01: Name](./Math/CHA_01_NAME.pdf)
 
 </details>
 
@@ -55,11 +55,11 @@ Kapitel 2 - Name
 
 Kapitel 1 - Name
 
-* [Kapitel 01: Name](./English/CHA_01_NAME)
+* [Kapitel 01: Name](./English/CHA_01_NAME.pdf)
 
 Essays
 
-* [01 - Name](./English/ENG_ESS_01_NAME)
+* [01 - Name](./English/ENG_ESS_01_NAME.pdf)
 
 </details>
 
