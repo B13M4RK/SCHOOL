@@ -94,6 +94,9 @@ Hier geht es zu allen Kursen, die ich besuche:
 
 ## Projekt updaten
 
+1. Code kopieren und ins Terminal einfügen. 
+2. Github Seite neu laden.
+
 ```bash
 cd ~/Documents/School
 git add .
