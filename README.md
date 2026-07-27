@@ -183,3 +183,13 @@ fi
 # 7. Aus Ordnern raus
 cd
 ```
+---
+
+## ⚖️ Lizenz & Nutzung
+
+Dieses Repository ist freies Lernmaterial! Schülerinnen und Schüler dürfen alle Inhalte gerne **herunterladen, teilen und zum Lernen nutzen**.
+
+* **Eigene Inhalte & Lösungen:** Alle Dokumente mit dem Vermerk `Autor: Paul Dreißig` beinhalten meine eigenen Mitschriften, Erklärungen und Ausarbeitungen. Sie stehen unter der [MIT-Lizenz](LICENSE) und dürfen frei verwendet werden.
+* **Integrierte Aufgabenstellungen:** In meinen Dokumenten enthaltene Aufgabenstellungen dienen als Zitat zur Kontextualisierung meiner Lösungen. Die Urheberrechte an den originalen Aufgaben verbleiben bei den jeweiligen Lehrkräften, Schulen oder Verlagen.
+
+> 💡 **Tipp für Mitschüler:** Du kannst das Repo über den grünen **Code**-Button oben als ZIP herunterladen oder per `git clone` auf deinen PC holen.
