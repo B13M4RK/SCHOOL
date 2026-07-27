@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./img/Turmkreuz.png" alt="Logo" height="80">
+  <img src="./Assets/img/Turmkreuz.png" alt="Logo" height="80">
 
   # Evangelische Schule Schloss Gaienhofen
   ### Oberstufe • Digitales Kursheft
@@ -28,28 +28,28 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 
 Kapitel 1 - Name
 
-* [Zusammenfassung](./Physics/CHA_01_NAME/PHY_SUM_01_NAME.pdf)
-* [Aufgaben](./Physics/CHA_01_NAME/PHY_EXE_01.pdf)
+* [Zusammenfassung](./Subjects/Physics/CHA_01_NAME/PHY_SUM_01_NAME.pdf)
+* [Aufgaben](./Subjects/Physics/CHA_01_NAME/PHY_EXE_01.pdf)
 
 Kapitel 2 - Name
 
-* [Zusammenfassung](./Physics/CHA_02_NAME/PHY_SUM_02_NAME.pdf)
-* [Aufgaben](./Physics/CHA_02_NAME/PHY_EXE_02.pdf)
+* [Zusammenfassung](./Subjects/Physics/CHA_02_NAME/PHY_SUM_02_NAME.pdf)
+* [Aufgaben](./Subjects/Physics/CHA_02_NAME/PHY_EXE_02.pdf)
 
 🧪 Experimente
 
-* [🧪 01 - Name](./Physics/PHY_EXP_01_NAME.pdf)
+* [🧪 01 - Name](./Subjects/Physics/PHY_EXP_01_NAME.pdf)
 
 <br>
 
-* [📄 Formelsammlung](./Physics/PHY_FOR.pdf)
+* [📄 Formelsammlung](./Subjects/Physics/PHY_FOR.pdf)
 
 </details>
 
 <details>
 <summary><b>📐 Mathematik</b></summary>
 
-* [Kapitel 01: Name](./Math/CHA_01_NAME.pdf)
+* [Kapitel 01: Name](./Subjects/Math/CHA_01_NAME.pdf)
 
 </details>
 
@@ -58,11 +58,11 @@ Kapitel 2 - Name
 
 Kapitel 1 - Name
 
-* [Kapitel 01: Name](./English/CHA_01_NAME.pdf)
+* [Kapitel 01: Name](./Subjects/English/CHA_01_NAME.pdf)
 
 Essays
 
-* [01 - Name](./English/ENG_ESS_01_NAME.pdf)
+* [01 - Name](./Subjects/English/ENG_ESS_01_NAME.pdf)
 
 </details>
 
@@ -75,50 +75,50 @@ Essays
 <details>
 <summary><b>✍️ Deutsch</b></summary>
 
-* [Kapitel 01: Name](./German/CHA_01_NAME.pdf)
-* [Kapitel 02: Name](./German/CHA_02_NAME.pdf)
+* [Kapitel 01: Name](./Subjects/German/CHA_01_NAME.pdf)
+* [Kapitel 02: Name](./Subjects/German/CHA_02_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>🏛️ Geschichte</b></summary>
 
-* [Kapitel 01: Name](./History/CHA_01_NAME.pdf)
+* [Kapitel 01: Name](./Subjects/History/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>⚖️ Gemeinschaftskunde</b></summary>
 
-* [Kapitel 01: Name](./GK/CHA_01_NAME.pdf)
+* [Kapitel 01: Name](./Subjects/Civics/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>⛪ Religion</b></summary>
 
-* [Kapitel 01: Name](./Religion/CHA_01_NAME.pdf)
+* [Kapitel 01: Name](./Subjects/Religion/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>🎨 Kunst</b></summary>
 
-* [Kapitel 01: Name](./Kunst/CHA_01_NAME.pdf)
+* [Kapitel 01: Name](./Subjects/Art/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>⚽ Sport</b></summary>
 
-* [Kapitel 01: Name](./Sport/CHA_01_NAME.pdf)
+* [Kapitel 01: Name](./Subjects/PE/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>🔭 Astronomie</b></summary>
 
-* [Kapitel 01: Name](./Astronomie/CHA_01_NAME.pdf)
+* [Kapitel 01: Name](./Subjects/Astronomy/CHA_01_NAME.pdf)
 
 </details>
 
@@ -128,7 +128,7 @@ Essays
 
 ## 📊 Notenübersicht
 
-* [📊 Notentabelle öffnen](./grades.pdf)
+* [📊 Notentabelle öffnen](./Overview/grades.pdf)
 
 ---
 
