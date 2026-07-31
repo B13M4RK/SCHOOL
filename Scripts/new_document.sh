@@ -1,5 +1,23 @@
 #!/bin/bash
 
+# --- AUTOMATISCHER TERMINAL-LAUNCHER ---
+# Prüft, ob das Skript in einem echten Terminal läuft.
+# Falls nicht (z. B. Doppelklick auf Symlink), startet es sich selbst in ein Terminal um.
+if [ ! -t 0 ]; then
+  if command -v gnome-terminal >/dev/null 2>&1; then
+    exec gnome-terminal -- "$0" "$@"
+  elif command -v ptyxis >/dev/null 2>&1; then
+    exec ptyxis -- "$0" "$@"
+  elif command -v x-terminal-emulator >/dev/null 2>&1; then
+    exec x-terminal-emulator -e "$0" "$@"
+  elif command -v xterm >/dev/null 2>&1; then
+    exec xterm -e "$0" "$@"
+  else
+    echo "Kein unterstütztes Terminal gefunden!"
+    exit 1
+  fi
+fi
+
 # 1. Fächerliste (Menü-Anzeige : Englischer Ordnername)
 FAECHER_DISPLAY=(
   "Kunst"
@@ -199,3 +217,5 @@ sync
 
 # 7. In LibreOffice öffnen
 libreoffice "$DATEIPFAD" >/dev/null 2>&1 &
+
+read -p "Drücke Enter zum Beenden..."
