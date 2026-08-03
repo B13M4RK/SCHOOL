@@ -136,10 +136,20 @@ Essays
 
 Git Clone (zum Updaten bis AUG 2028)
 
+1. Falls noch nicht geschehen
+
 ```bash
-cd Downloads
-git clone https://github.com/B13M4RK/SCHOOL.git
+cd Documents/
+git clone https://github.com/B13M4RK/School.git
 ```
+
+2. Updating
+
+```bash
+cd Documents/School
+git pull
+```
+
 Download Zip (einmalig)
 ```bash
 cd Downloads
