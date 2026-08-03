@@ -57,7 +57,7 @@ FACH_SHORT=$(echo "$FACH" | cut -c1-3 | tr '[:lower:]' '[:upper:]')
 
 # Basis-Pfad & Template-Pfad
 BASE_DIR="$HOME/Documents/School/Subjects/$FACH"
-TEMPLATE_DIR="$HOME/Templates/Business Correspondence"
+TEMPLATE_DIR="$HOME/Documents/School/Templates"
 mkdir -p "$BASE_DIR"
 
 # 3. Dokument-Art auswählen
@@ -77,12 +77,14 @@ case $WAHL_ART in
   *) echo "Ungültige Auswahl!"; exit 1 ;;
 esac
 
-# Lehrkraft bestimmen
-if [ "$FACH" == "Physics" ]; then
-  TEACHER="Lukas Herrwanger"
-else
-  TEACHER="LEHRER"
-fi
+# --- LEHRKRAFT ZUWEISEN ---
+case "$FACH" in
+  "Physics")      TEACHER="Lukas Herrwanger" ;;
+  "Math")         TEACHER="Name des Lehrers" ;;
+  "English")      TEACHER="Name des Lehrers" ;;
+  # ... und so weiter für die anderen Fächer ...
+  *)              TEACHER="LEHRER" ;;
+esac
 
 # 4. Ordner & Nummerierung ermitteln
 if [ "$ART" == "FOR" ]; then
