@@ -19,6 +19,11 @@ find . -type d -empty -exec touch {}/.gitkeep \;
 # 4. Datum und Uhrzeit holen 
 DATUM=$(date +"%d.%m.%Y - %H:%M Uhr") 
 
+# --- NEU: Statistik & Noten-Markdown aktualisieren ---
+if [ -f "stats.sh" ]; then
+    bash stats.sh
+fi
+
 # 5. Alle Dateien (inkl. der erzeugten PDFs und .gitkeep-Dateien) vormerken 
 git add . 
 
