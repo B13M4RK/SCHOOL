@@ -21,7 +21,7 @@ fi
 # 1. Fächerliste (Menü-Anzeige : Englischer Ordnername)
 FAECHER_DISPLAY=(
   "Kunst"
-  "Astronomie"
+  "Mathe Vertiefung"
   "Gesellschaftskunde"
   "Englisch"
   "Deutsch"
@@ -34,7 +34,7 @@ FAECHER_DISPLAY=(
 
 FAECHER_FOLDER=(
   "Art"
-  "Astronomy"
+  "MathAdvanced"
   "SocialStudies"
   "English"
   "German"
@@ -80,8 +80,7 @@ esac
 # --- LEHRKRAFT ZUWEISEN ---
 case "$FACH" in
   "Physics")      TEACHER="Lukas Herrwanger" ;;
-  "Math")         TEACHER="Name des Lehrers" ;;
-  "English")      TEACHER="Name des Lehrers" ;;
+  "Math")         TEACHER="Cornelia Kessler" ;;
   # ... und so weiter für die anderen Fächer ...
   *)              TEACHER="LEHRER" ;;
 esac
@@ -89,6 +88,8 @@ esac
 # 4. Ordner & Nummerierung ermitteln
 if [ "$ART" == "FOR" ]; then
   ZIELORDNER="$BASE_DIR/FOR"
+  mkdir -p "$ZIELORDNER"
+  
   read -p "Name für die Formelsammlung: " DOC_NAME
   DOC_NAME_UPPER=$(echo "$DOC_NAME" | tr '[:lower:]' '[:upper:]')
   
@@ -117,10 +118,18 @@ else
 
   mkdir -p "$ZIELORDNER"
 
+  # Nummerierungslogik je nach Dokumentart
   if [ "$ART" == "SUM" ] || [ "$ART" == "EXE" ]; then
+    # Maximal 1 EXE und 1 SUM pro Kapitel -> Nummer entspricht der Kapitelnummer
     NUMMER="$CHA_NUM"
+    
+    # Prüfen, ob bereits eine EXE/SUM in diesem Kapitel existiert
+    existing_files=("$ZIELORDNER/${FACH_SHORT}_${ART}_${NUMMER}_"*.odt)
+    if [ -e "${existing_files[0]}" ]; then
+      echo "Hinweis: Es existiert bereits eine ${ART} für dieses Kapitel!"
+    fi
   else
-    # Global alle Dateien des Typs (ESS/EXP) im gesamten Fach-Ordner suchen
+    # EXP und ESS: Global im gesamten Fach-Ordner suchen und fortlaufend zählen
     MAX_NUM=0
     while IFS= read -r file; do
       [ -z "$file" ] && continue
