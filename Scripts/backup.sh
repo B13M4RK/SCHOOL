@@ -6,9 +6,9 @@ cd ~/Documents/School || exit
 # 2. Alte PDFs löschen, damit keine alten Stände oder gelöschte Dateien als Waise bleiben 
 find . -type f -name "*.pdf" -delete 
 
-# 3. Alle LibreOffice-Dateien (.odt, .ods, .odp, .odg, .odb, .odf) suchen 
+# 3. Alle LibreOffice-Dateien (.odt, .ods, .odp, .odg, .odb, .odf, .ott) suchen 
 # und direkt im jeweiligen Zielordner als PDF speichern 
-find . -type f \( -name "*.odt" -o -name "*.ods" -o -name "*.odp" -o -name "*.odg" -o -name "*.odb" -o -name "*.odf" \) | while read -r FILE; do 
+find . -type f \( -name "*.odt" -o -name "*.ods" -o -name "*.odp" -o -name "*.odg" -o -name "*.odb" -o -name "*.odf" -o -name "*.ott" \) | while read -r FILE; do 
     DIR=$(dirname "$FILE") 
     libreoffice --headless --convert-to pdf "$FILE" --outdir "$DIR" 2>/dev/null 
 done 
