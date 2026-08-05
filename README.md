@@ -38,18 +38,21 @@ Kapitel 2 - Name
 
 Experimente
 
-* [🧪 01 - Name](./PDFs/PHY_EXP_01_NAME.pdf)
+* [01 - NAME](./PDFs/PHY_EXP_01_NAME.pdf)
 
 <br>
 
-* [📄 Formelsammlung](./PDFs/PHY_FOR.pdf)
+[📄 Formelsammlung](./PDFs/PHY_FOR.pdf)
 
 </details>
 
 <details>
 <summary><b>📐 Mathematik</b></summary>
+<br>
 
-* [Kapitel 01: Name]()
+Kapitel 1 - 
+
+* [Zusammenfassung]()
 
 </details>
 
@@ -138,9 +141,10 @@ Kapitel 1 - Name
 
 ---
 
-## 📊 Notenübersicht
+## Übersicht
 
-* [📊 Notentabelle öffnen]()
+* [📊 Notentabelle öffnen](./PDFs/grades.pdf)
+* [📊 Lehrplan öffnen](./PDFs/lehrplan.pdf)
 
 ---
 
