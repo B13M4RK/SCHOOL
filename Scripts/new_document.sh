@@ -141,7 +141,7 @@ else
   DOC_NAME_UPPER=$(echo "$DOC_NAME" | tr '[:lower:]' '[:upper:]')
   
   FULL_HEADER="${FACH_SHORT}_${ART}_${NUMMER}_${DOC_NAME_UPPER}"
-    DATEINAME="${FACH_SHORT}_${ART}_${NUMMER}_${DOC_NAME}.odt"
+  DATEINAME="${FACH_SHORT}_${ART}_${NUMMER}_${DOC_NAME}.odt"
 fi
 
 # 5. Dateipfad definieren
@@ -152,17 +152,17 @@ DATEIPFAD="$ZIELORDNER/$DATEINAME"
 if [ -f "$DATEIPFAD" ]; then
   echo -e "\nDas Dokument existiert bereits! Öffne bestehende Datei..."
 else
-  # HIER AUF TEMP_ GEÄNDERT
-  TEMPLATE_FILE="$TEMPLATE_DIR/TEMP_${ART}.ott"
+  # HIER AUF TEM_ GEÄNDERT
+  TEMPLATE_FILE="$TEMPLATE_DIR/TEM_${ART}.ott"
 
   if [ -f "$TEMPLATE_FILE" ]; then
-    echo -e "\nErstelle Dokument aus Vorlage: TEMP_${ART}.ott"
+    echo -e "\nErstelle Dokument aus Vorlage: TEM_${ART}.ott"
 
     TMP_DIR=$(mktemp -d)
 
     soffice --headless --convert-to odt "$TEMPLATE_FILE" --outdir "$TMP_DIR" >/dev/null 2>&1
-    # HIER AUCH AUF TEMP_ GEÄNDERT
-    CONVERTED_ODT="$TMP_DIR/TEMP_${ART}.odt"
+    # HIER AUCH AUF TEM_ GEÄNDERT
+    CONVERTED_ODT="$TMP_DIR/TEM_${ART}.odt"
 
     if [ -f "$CONVERTED_ODT" ]; then
       UNZIP_DIR="$TMP_DIR/unpacked"

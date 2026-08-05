@@ -12,6 +12,9 @@ find . -type f \( -name "*.odt" -o -name "*.ods" -o -name "*.odp" -o -name "*.od
     libreoffice --headless --convert-to pdf "$FILE" --outdir "PDFs" 2>/dev/null
 done
 
+# --- NEU: PDFs außerhalb des PDFs-Ordners löschen, damit dort nur Rohdateien bleiben ---
+find . -mindepth 2 -type f -name "*.pdf" ! -path "./PDFs/*" -delete
+
 # 3b. Leere Ordner finden und mit einer .gitkeep versehen, damit Git sie erkennt
 find . -type d -empty -exec touch {}/.gitkeep \;
 
