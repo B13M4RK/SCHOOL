@@ -47,7 +47,7 @@ Experimente
 </details>
 
 <details>
-<summary><b>📐 Mathematik</b></summary>
+<summary><b>📏 Mathematik</b></summary>
 <br>
 
 Kapitel 1 - 
@@ -61,7 +61,7 @@ Kapitel 1 -
 
 Kapitel 1 - Name
 
-* [Kapitel 01: Name]()
+    * [Kapitel 01: Name]()
 
 Essays
 
@@ -129,7 +129,7 @@ Kapitel 1 - Name
 </details>
 
 <details>
-<summary><b>🔭 Astronomie</b></summary>
+<summary><b>📐 Mathe Vertiefung</b></summary>
 
 Kapitel 1 - Name
 
