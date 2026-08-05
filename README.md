@@ -69,9 +69,10 @@ Essays
 
 </details>
 
+<br>
+
 </details>
 
-<br>
 <details>
 <summary><b>📖 Grundkurse (GK)</b></summary>
 <br>
