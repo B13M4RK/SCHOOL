@@ -61,7 +61,7 @@ Kapitel 1 -
 
 Kapitel 1 - Name
 
-* [Kapitel 01: Name]()
+* [Zusammenfassung]()
 
 Essays
 
@@ -81,7 +81,8 @@ Essays
 <summary><b>✍️ Deutsch</b></summary>
 
 Kapitel 1 - Name
-* [Kapitel 01: Name]()
+
+* [Zusammenfassung]()
 
 </details>
 
@@ -90,7 +91,7 @@ Kapitel 1 - Name
 
 Kapitel 1 - Name
 
-* [Kapitel 01: Name]()
+* [Zusammenfassung]()
 
 </details>
 
@@ -99,7 +100,7 @@ Kapitel 1 - Name
 
 Kapitel 1 - Name
 
-* [Kapitel 01: Name]()
+* [Zusammenfassung]()
 
 </details>
 
@@ -108,7 +109,7 @@ Kapitel 1 - Name
 
 Kapitel 1 - Name
 
-* [Kapitel 01: Name]()
+* [Zusammenfassung]()
 
 </details>
 
@@ -117,7 +118,7 @@ Kapitel 1 - Name
 
 Kapitel 1 - Name
 
-* [Kapitel 01: Name]()
+* [Zusammenfassung]()
 
 </details>
 
@@ -126,7 +127,7 @@ Kapitel 1 - Name
 
 Kapitel 1 - Name
 
-* [Kapitel 01: Name]()
+* [Zusammenfassung]()
 
 </details>
 
@@ -135,7 +136,7 @@ Kapitel 1 - Name
 
 Kapitel 1 - Name
 
-* [Kapitel 01: Name]()
+* [Zusammenfassung]()
 
 </details>
 
