@@ -1,8 +1,6 @@
 #!/bin/bash
 
 # --- AUTOMATISCHER TERMINAL-LAUNCHER ---
-# Prüft, ob das Skript in einem echten Terminal läuft.
-# Falls nicht (z. B. Doppelklick auf Symlink), startet es sich selbst in ein Terminal um.
 if [ ! -t 0 ]; then
   if command -v gnome-terminal >/dev/null 2>&1; then
     exec gnome-terminal -- "$0" "$@"
@@ -79,10 +77,9 @@ esac
 
 # --- LEHRKRAFT ZUWEISEN ---
 case "$FACH" in
-  "Physics")      TEACHER="Lukas Herrwanger" ;;
-  "Math")         TEACHER="Cornelia Kessler" ;;
-  # ... und so weiter für die anderen Fächer ...
-  *)              TEACHER="LEHRER" ;;
+  "Physics")     TEACHER="Lukas Herrwanger" ;;
+  "Math")        TEACHER="Cornelia Kessler" ;;
+  *)             TEACHER="LEHRER" ;;
 esac
 
 # 4. Ordner & Nummerierung ermitteln
@@ -118,18 +115,13 @@ else
 
   mkdir -p "$ZIELORDNER"
 
-  # Nummerierungslogik je nach Dokumentart
   if [ "$ART" == "SUM" ] || [ "$ART" == "EXE" ]; then
-    # Maximal 1 EXE und 1 SUM pro Kapitel -> Nummer entspricht der Kapitelnummer
     NUMMER="$CHA_NUM"
-    
-    # Prüfen, ob bereits eine EXE/SUM in diesem Kapitel existiert
     existing_files=("$ZIELORDNER/${FACH_SHORT}_${ART}_${NUMMER}_"*.odt)
     if [ -e "${existing_files[0]}" ]; then
       echo "Hinweis: Es existiert bereits eine ${ART} für dieses Kapitel!"
     fi
   else
-    # EXP und ESS: Global im gesamten Fach-Ordner suchen und fortlaufend zählen
     MAX_NUM=0
     while IFS= read -r file; do
       [ -z "$file" ] && continue
@@ -149,7 +141,7 @@ else
   DOC_NAME_UPPER=$(echo "$DOC_NAME" | tr '[:lower:]' '[:upper:]')
   
   FULL_HEADER="${FACH_SHORT}_${ART}_${NUMMER}_${DOC_NAME_UPPER}"
-  DATEINAME="${FACH_SHORT}_${ART}_${NUMMER}_${DOC_NAME}.odt"
+    DATEINAME="${FACH_SHORT}_${ART}_${NUMMER}_${DOC_NAME}.odt"
 fi
 
 # 5. Dateipfad definieren
@@ -160,23 +152,23 @@ DATEIPFAD="$ZIELORDNER/$DATEINAME"
 if [ -f "$DATEIPFAD" ]; then
   echo -e "\nDas Dokument existiert bereits! Öffne bestehende Datei..."
 else
-  TEMPLATE_FILE="$TEMPLATE_DIR/SCHOOL_${ART}.ott"
+  # HIER AUF TEMP_ GEÄNDERT
+  TEMPLATE_FILE="$TEMPLATE_DIR/TEMP_${ART}.ott"
 
   if [ -f "$TEMPLATE_FILE" ]; then
-    echo -e "\nErstelle Dokument aus Vorlage: SCHOOL_${ART}.ott"
+    echo -e "\nErstelle Dokument aus Vorlage: TEMP_${ART}.ott"
 
     TMP_DIR=$(mktemp -d)
 
-    # 1. LibreOffice konvertiert das OTT sauber zu einem echten ODT
     soffice --headless --convert-to odt "$TEMPLATE_FILE" --outdir "$TMP_DIR" >/dev/null 2>&1
-    CONVERTED_ODT="$TMP_DIR/SCHOOL_${ART}.odt"
+    # HIER AUCH AUF TEMP_ GEÄNDERT
+    CONVERTED_ODT="$TMP_DIR/TEMP_${ART}.odt"
 
     if [ -f "$CONVERTED_ODT" ]; then
       UNZIP_DIR="$TMP_DIR/unpacked"
       mkdir -p "$UNZIP_DIR"
       unzip -q "$CONVERTED_ODT" -d "$UNZIP_DIR"
 
-      # 2. Text-Ersetzungen in den XMLs durchführen
       replace_in_xml() {
         local file="$1"
         if [ -f "$file" ]; then
@@ -208,7 +200,6 @@ else
       replace_in_xml "$UNZIP_DIR/content.xml"
       replace_in_xml "$UNZIP_DIR/styles.xml"
 
-      # 3. ODF-konform packen (mimetype MUSS unkomprimiert als erste Datei im Zip liegen!)
       cd "$UNZIP_DIR" || exit
       zip -0 -X -q "$DATEIPFAD" mimetype
       zip -r -q "$DATEIPFAD" . -x mimetype
@@ -226,7 +217,6 @@ fi
 chmod 644 "$DATEIPFAD"
 sync
 
-# 7. In LibreOffice öffnen
 libreoffice "$DATEIPFAD" >/dev/null 2>&1 &
 
 read -p "Drücke Enter zum Beenden..."
