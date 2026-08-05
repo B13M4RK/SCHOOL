@@ -26,43 +26,23 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 <summary><b>⚡ Physik</b></summary>
 <br>
 
-Kapitel 1 - Name
+Kapitel 0 - f
 
-* [Zusammenfassung](./PDFs)
-* [Aufgaben](./Subjects/Physics/CHA_01_NAME/PHY_EXE_01.pdf)
-
-Kapitel 2 - Name
-
-* [Zusammenfassung](./Subjects/Physics/CHA_02_NAME/PHY_SUM_02_NAME.pdf)
-* [Aufgaben](./Subjects/Physics/CHA_02_NAME/PHY_EXE_02.pdf)
-
-🧪 Experimente
-
-* [🧪 01 - Name](./Subjects/Physics/PHY_EXP_01_NAME.pdf)
+* [🧪 02 - f](./PDFs/PHY_EXP_02_f.pdf)
 
 <br>
 
-* [📄 Formelsammlung](./Subjects/Physics/PHY_FOR.pdf)
+* [📄 Formelsammlung](./PDFs/PHY_FOR.pdf)
 
 </details>
 
 <details>
 <summary><b>📐 Mathematik</b></summary>
 
-* [Kapitel 01: Name](./Subjects/Math/CHA_01_NAME.pdf)
-
 </details>
 
 <details>
 <summary><b>🇬🇧 Englisch</b></summary>
-
-Kapitel 1 - Name
-
-* [Kapitel 01: Name](./Subjects/English/CHA_01_NAME.pdf)
-
-Essays
-
-* [01 - Name](./Subjects/English/ENG_ESS_01_NAME.pdf)
 
 </details>
 
@@ -75,50 +55,38 @@ Essays
 <details>
 <summary><b>✍️ Deutsch</b></summary>
 
-* [Kapitel 01: Name](./Subjects/German/CHA_01_NAME.pdf)
-* [Kapitel 02: Name](./Subjects/German/CHA_02_NAME.pdf)
-
 </details>
 
 <details>
 <summary><b>🏛️ Geschichte</b></summary>
-
-* [Kapitel 01: Name](./Subjects/History/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>⚖️ Gemeinschaftskunde</b></summary>
 
-* [Kapitel 01: Name](./Subjects/Civics/CHA_01_NAME.pdf)
-
 </details>
 
 <details>
 <summary><b>⛪ Religion</b></summary>
-
-* [Kapitel 01: Name](./Subjects/Religion/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>🎨 Kunst</b></summary>
 
-* [Kapitel 01: Name](./Subjects/Art/CHA_01_NAME.pdf)
+* [🎨 01 - 1](./PDFs/ART_EXP_01_1.pdf)
+* [🎨 02 - 1](./PDFs/ART_EXP_02_1.pdf)
 
 </details>
 
 <details>
 <summary><b>⚽ Sport</b></summary>
 
-* [Kapitel 01: Name](./Subjects/PE/CHA_01_NAME.pdf)
-
 </details>
 
 <details>
 <summary><b>🔭 Astronomie</b></summary>
-
-* [Kapitel 01: Name](./Subjects/Astronomy/CHA_01_NAME.pdf)
 
 </details>
 
@@ -126,9 +94,10 @@ Essays
 
 ---
 
-## 📊 Notenübersicht
+## 📊 Notenübersicht & Lehrplan
 
-* [📊 Notentabelle öffnen](./Overview/grades.pdf)
+* [📊 Notentabelle öffnen](./PDFs/grades.pdf)
+* [📄 Lehrplan öffnen](./PDFs/lehrplan.pdf)
 
 ---
 
@@ -140,29 +109,4 @@ Git Clone (zum Updaten bis AUG 2028)
 
 ```bash
 cd Documents/
-git clone https://github.com/B13M4RK/School.git
-```
-
-2. Updating
-
-```bash
-cd Documents/School
-git pull
-```
-
-Download Zip (einmalig)
-```bash
-cd Downloads
-curl -L -O https://github.com/B13M4RK/SCHOOL/archive/refs/heads/main.zip
-unzip main.zip
-rm main.zip
-```
-
----
-
-## ⚖️ Lizenz & Nutzung
-
-Alle Zusammenfassungen, Mitschriften und Lösungen kannst du **frei herunterladen und zum Lernen nutzen**! 
-
-* **Eigene Inhalte** (mit `Autor: Paul Dreißig`) stehen unter der [MIT-Lizenz](LICENSE) und sind Open Source.
-* **Aufgabenstellungen** dienen als Zitat zur Orientierung; die Rechte daran liegen bei den jeweiligen Lehrkräften/Verlagen.
+git clone [https://github.com/B13M4RK/School.git](https://github.com/B13M4RK/School.git)
