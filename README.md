@@ -26,9 +26,19 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 <summary><b>⚡ Physik</b></summary>
 <br>
 
-Kapitel 0 - f
+Kapitel 1 - Elektromagnetismus
 
-* [🧪 02 - f](./PDFs/PHY_EXP_02_f.pdf)
+* [Zusammenfassung](./PDFs/PHY_SUM_01_Elektromagnetismus.pdf)
+* [Aufgaben](./PDFs/PHY_EXE_01.pdf)
+
+Kapitel 2 - Name
+
+* [Zusammenfassung]()
+* [Aufgaben]()
+
+Experimente
+
+* [🧪 01 - Name](./PDFs/PHY_EXP_01_NAME.pdf)
 
 <br>
 
@@ -39,10 +49,20 @@ Kapitel 0 - f
 <details>
 <summary><b>📐 Mathematik</b></summary>
 
+* [Kapitel 01: Name]()
+
 </details>
 
 <details>
 <summary><b>🇬🇧 Englisch</b></summary>
+
+Kapitel 1 - Name
+
+* [Kapitel 01: Name]()
+
+Essays
+
+* [01 - Name]()
 
 </details>
 
@@ -55,38 +75,62 @@ Kapitel 0 - f
 <details>
 <summary><b>✍️ Deutsch</b></summary>
 
+Kapitel 1 - Name
+* [Kapitel 01: Name]()
+
 </details>
 
 <details>
 <summary><b>🏛️ Geschichte</b></summary>
+
+Kapitel 1 - Name
+
+* [Kapitel 01: Name]()
 
 </details>
 
 <details>
 <summary><b>⚖️ Gemeinschaftskunde</b></summary>
 
+Kapitel 1 - Name
+
+* [Kapitel 01: Name]()
+
 </details>
 
 <details>
 <summary><b>⛪ Religion</b></summary>
+
+Kapitel 1 - Name
+
+* [Kapitel 01: Name]()
 
 </details>
 
 <details>
 <summary><b>🎨 Kunst</b></summary>
 
-* [🎨 01 - 1](./PDFs/ART_EXP_01_1.pdf)
-* [🎨 02 - 1](./PDFs/ART_EXP_02_1.pdf)
+Kapitel 1 - Name
+
+* [Kapitel 01: Name]()
 
 </details>
 
 <details>
 <summary><b>⚽ Sport</b></summary>
 
+Kapitel 1 - Name
+
+* [Kapitel 01: Name]()
+
 </details>
 
 <details>
 <summary><b>🔭 Astronomie</b></summary>
+
+Kapitel 1 - Name
+
+* [Kapitel 01: Name]()
 
 </details>
 
@@ -94,10 +138,9 @@ Kapitel 0 - f
 
 ---
 
-## 📊 Notenübersicht & Lehrplan
+## 📊 Notenübersicht
 
-* [📊 Notentabelle öffnen](./PDFs/grades.pdf)
-* [📄 Lehrplan öffnen](./PDFs/lehrplan.pdf)
+* [📊 Notentabelle öffnen]()
 
 ---
 
@@ -109,4 +152,29 @@ Git Clone (zum Updaten bis AUG 2028)
 
 ```bash
 cd Documents/
-git clone [https://github.com/B13M4RK/School.git](https://github.com/B13M4RK/School.git)
+git clone https://github.com/B13M4RK/School.git
+```
+
+2. Updating
+
+```bash
+cd Documents/School
+git pull
+```
+
+Download Zip (einmalig)
+```bash
+cd Downloads
+curl -L -O https://github.com/B13M4RK/SCHOOL/archive/refs/heads/main.zip
+unzip main.zip
+rm main.zip
+```
+
+---
+
+## ⚖️ Lizenz & Nutzung
+
+Alle Zusammenfassungen, Mitschriften und Lösungen kannst du **frei herunterladen und zum Lernen nutzen**! 
+
+* **Eigene Inhalte** (mit `Autor: Paul Dreißig`) stehen unter der [MIT-Lizenz](LICENSE) und sind Open Source.
+* **Aufgabenstellungen** dienen als Zitat zur Orientierung; die Rechte daran liegen bei den jeweiligen Lehrkräften/Verlagen.
