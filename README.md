@@ -26,40 +26,43 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 <summary><b>⚡ Physik</b></summary>
 <br>
 
-Kapitel 00 - f
+Kapitel 1 - Name
 
+* [Zusammenfassung](./Subjects/Physics/CHA_01_NAME/PHY_SUM_01_NAME.pdf)
+* [Aufgaben](./Subjects/Physics/CHA_01_NAME/PHY_EXE_01.pdf)
 
-Kapitel 01 - ELECTROMAGNETISM
+Kapitel 2 - Name
 
-* [Essay](./PDFs/PHY_ESS_01_as.pdf)
-* [Aufgaben](./PDFs/PHY_EXE_01_qs.pdf)
-
-Kapitel 02 - NAME
-
+* [Zusammenfassung](./Subjects/Physics/CHA_02_NAME/PHY_SUM_02_NAME.pdf)
+* [Aufgaben](./Subjects/Physics/CHA_02_NAME/PHY_EXE_02.pdf)
 
 🧪 Experimente
 
-* [🧪 PHY_EXP_01_NAME](./PDFs/PHY_EXP_01_NAME.pdf)
-* [🧪 PHY_EXP_02_f](./PDFs/PHY_EXP_02_f.pdf)
+* [🧪 01 - Name](./Subjects/Physics/PHY_EXP_01_NAME.pdf)
 
 <br>
 
-* [📄 Formelsammlung](./PDFs/PHY_FOR.pdf)
+* [📄 Formelsammlung](./Subjects/Physics/PHY_FOR.pdf)
 
 </details>
 
 <details>
 <summary><b>📐 Mathematik</b></summary>
-<br>
 
-Kapitel 01 - Summen
-
+* [Kapitel 01: Name](./Subjects/Math/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>🇬🇧 Englisch</b></summary>
-<br>
+
+Kapitel 1 - Name
+
+* [Kapitel 01: Name](./Subjects/English/CHA_01_NAME.pdf)
+
+Essays
+
+* [01 - Name](./Subjects/English/ENG_ESS_01_NAME.pdf)
 
 </details>
 
@@ -71,59 +74,58 @@ Kapitel 01 - Summen
 
 <details>
 <summary><b>✍️ Deutsch</b></summary>
-<br>
 
-Kapitel 01 - NAME
-
-
-Kapitel 02 - NAME
-
+* [Kapitel 01: Name](./Subjects/German/CHA_01_NAME.pdf)
+* [Kapitel 02: Name](./Subjects/German/CHA_02_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>🏛️ Geschichte</b></summary>
-<br>
+
+* [Kapitel 01: Name](./Subjects/History/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>⚖️ Gemeinschaftskunde</b></summary>
-<br>
+
+* [Kapitel 01: Name](./Subjects/Civics/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>⛪ Religion</b></summary>
-<br>
 
-Kapitel 01 - EF
-
+* [Kapitel 01: Name](./Subjects/Religion/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>🎨 Kunst</b></summary>
-<br>
 
-Kapitel 01 - 1
-
+* [Kapitel 01: Name](./Subjects/Art/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>⚽ Sport</b></summary>
-<br>
+
+* [Kapitel 01: Name](./Subjects/PE/CHA_01_NAME.pdf)
 
 </details>
 
 <details>
 <summary><b>🔭 Astronomie</b></summary>
-<br>
+
+* [Kapitel 01: Name](./Subjects/Astronomy/CHA_01_NAME.pdf)
 
 </details>
 
 </details>
+
+---
+
 ## 📊 Notenübersicht
 
 * [📊 Notentabelle öffnen](./Overview/grades.pdf)
