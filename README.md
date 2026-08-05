@@ -1,4 +1,4 @@
-readme_content = """<div align="center">
+<div align="center">
 
   <img src="./Assets/img/Turmkreuz.png" alt="Logo" height="80">
 
@@ -22,18 +22,14 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 <summary><b>🔥 Leistungskurse (LK)</b></summary>
 <br>
 
-<div style="margin-left: 20px;">
-
 <details>
-<summary><b>⚡ Physik</b></summary>
+* <summary><b>⚡ Physik</b></summary>
 <br>
-
-<div style="margin-left: 20px;">
 
 Kapitel 1 - Elektromagnetismus
 
-* [Zusammenfassung](./PDFs/PHY_SUM_01_Elektromagnetismus.pdf)
-* [Aufgaben](./PDFs/PHY_EXE_01.pdf)
+ * [Zusammenfassung](./PDFs/PHY_SUM_01_Elektromagnetismus.pdf)
+ * [Aufgaben](./PDFs/PHY_EXE_01.pdf)
 
 Kapitel 2 - Name
 
@@ -48,29 +44,20 @@ Experimente
 
 [📄 Formelsammlung](./PDFs/PHY_FOR.pdf)
 
-</div>
-
 </details>
 
 <details>
 <summary><b>📏 Mathematik</b></summary>
 <br>
 
-<div style="margin-left: 20px;">
-
 Kapitel 1 - 
 
 * [Zusammenfassung]()
-
-</div>
 
 </details>
 
 <details>
 <summary><b>🇬🇧 Englisch</b></summary>
-<br>
-
-<div style="margin-left: 20px;">
 
 Kapitel 1 - Name
 
@@ -80,11 +67,7 @@ Essays
 
 * [01 - Name]()
 
-</div>
-
 </details>
-
-</div>
 
 </details>
 
@@ -92,106 +75,67 @@ Essays
 <summary><b>📖 Grundkurse (GK)</b></summary>
 <br>
 
-<div style="margin-left: 20px;">
-
 <details>
 <summary><b>✍️ Deutsch</b></summary>
-<br>
-
-<div style="margin-left: 20px;">
 
 Kapitel 1 - Name
 * [Kapitel 01: Name]()
-
-</div>
 
 </details>
 
 <details>
 <summary><b>🏛️ Geschichte</b></summary>
-<br>
-
-<div style="margin-left: 20px;">
 
 Kapitel 1 - Name
 
 * [Kapitel 01: Name]()
-
-</div>
 
 </details>
 
 <details>
 <summary><b>⚖️ Gemeinschaftskunde</b></summary>
-<br>
-
-<div style="margin-left: 20px;">
 
 Kapitel 1 - Name
 
 * [Kapitel 01: Name]()
-
-</div>
 
 </details>
 
 <details>
 <summary><b>⛪ Religion</b></summary>
-<br>
-
-<div style="margin-left: 20px;">
 
 Kapitel 1 - Name
 
 * [Kapitel 01: Name]()
-
-</div>
 
 </details>
 
 <details>
 <summary><b>🎨 Kunst</b></summary>
-<br>
-
-<div style="margin-left: 20px;">
 
 Kapitel 1 - Name
 
 * [Kapitel 01: Name]()
-
-</div>
 
 </details>
 
 <details>
 <summary><b>⚽ Sport</b></summary>
-<br>
-
-<div style="margin-left: 20px;">
 
 Kapitel 1 - Name
 
 * [Kapitel 01: Name]()
-
-</div>
 
 </details>
 
 <details>
 <summary><b>📐 Mathe Vertiefung</b></summary>
-<br>
-
-<div style="margin-left: 20px;">
 
 Kapitel 1 - Name
 
 * [Kapitel 01: Name]()
 
-</div>
-
 </details>
-
-</div>
 
 </details>
 
