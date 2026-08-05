@@ -23,13 +23,13 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 <br>
 
 <details>
-* <summary><b>⚡ Physik</b></summary>
+<summary><b>⚡ Physik</b></summary>
 <br>
 
 Kapitel 1 - Elektromagnetismus
 
-    * [Zusammenfassung](./PDFs/PHY_SUM_01_Elektromagnetismus.pdf)
-    * [Aufgaben](./PDFs/PHY_EXE_01.pdf)
+* [Zusammenfassung](./PDFs/PHY_SUM_01_Elektromagnetismus.pdf)
+* [Aufgaben](./PDFs/PHY_EXE_01.pdf)
 
 Kapitel 2 - Name
 
