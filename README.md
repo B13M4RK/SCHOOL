@@ -31,9 +31,20 @@ Kapitel 00 - f
 
 Kapitel 01 - ELECTROMAGNETISM
 
+* [Essay](./PDFs/PHY_ESS_01_as.pdf)
+* [Aufgaben](./PDFs/PHY_EXE_01_qs.pdf)
 
 Kapitel 02 - NAME
 
+
+🧪 Experimente
+
+* [🧪 PHY_EXP_01_NAME](./PDFs/PHY_EXP_01_NAME.pdf)
+* [🧪 PHY_EXP_02_f](./PDFs/PHY_EXP_02_f.pdf)
+
+<br>
+
+* [📄 Formelsammlung](./PDFs/PHY_FOR.pdf)
 
 </details>
 
@@ -60,34 +71,55 @@ Kapitel 01 - Summen
 
 <details>
 <summary><b>✍️ Deutsch</b></summary>
+<br>
 
-* [Kapitel 01: NAME](./Subjects/German/CHA_01_NAME)
-* [Kapitel 02: NAME](./Subjects/German/CHA_02_NAME)
+Kapitel 01 - NAME
+
+
+Kapitel 02 - NAME
+
+
 </details>
 
 <details>
 <summary><b>🏛️ Geschichte</b></summary>
+<br>
 
 </details>
 
 <details>
 <summary><b>⚖️ Gemeinschaftskunde</b></summary>
+<br>
+
+</details>
+
+<details>
+<summary><b>⛪ Religion</b></summary>
+<br>
+
+Kapitel 01 - EF
+
 
 </details>
 
 <details>
 <summary><b>🎨 Kunst</b></summary>
+<br>
 
-* [Kapitel 01: 1](./Subjects/Art/CHA_01_1)
+Kapitel 01 - 1
+
+
 </details>
 
 <details>
 <summary><b>⚽ Sport</b></summary>
+<br>
 
 </details>
 
 <details>
 <summary><b>🔭 Astronomie</b></summary>
+<br>
 
 </details>
 
