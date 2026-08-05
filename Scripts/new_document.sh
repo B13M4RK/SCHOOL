@@ -19,7 +19,7 @@ fi
 # 1. Fächerliste (Menü-Anzeige : Englischer Ordnername)
 FAECHER_DISPLAY=(
   "Kunst"
-  "Mathe Vertiefung"
+  "Mathe Vertiefungskurs"
   "Gesellschaftskunde"
   "Englisch"
   "Deutsch"
@@ -32,7 +32,7 @@ FAECHER_DISPLAY=(
 
 FAECHER_FOLDER=(
   "Art"
-  "MathAdvanced"
+  "Math_Adv"
   "SocialStudies"
   "English"
   "German"
@@ -51,7 +51,13 @@ done
 read -p "Nummer eingeben: " WAHL_FACH
 
 FACH="${FAECHER_FOLDER[$((WAHL_FACH-1))]}"
-FACH_SHORT=$(echo "$FACH" | cut -c1-3 | tr '[:lower:]' '[:upper:]')
+
+# Spezifische Kürzel für Mathe Core und Mathe Advanced, sonst Standard (erste 3 Buchstaben)
+case "$FACH" in
+  "Math")     FACH_SHORT="MAC" ;;
+  "Math_Adv") FACH_SHORT="MAA" ;;
+  *)          FACH_SHORT=$(echo "$FACH" | cut -c1-3 | tr '[:lower:]' '[:upper:]') ;;
+esac
 
 # Basis-Pfad & Template-Pfad
 BASE_DIR="$HOME/Documents/School/Subjects/$FACH"
@@ -77,9 +83,9 @@ esac
 
 # --- LEHRKRAFT ZUWEISEN ---
 case "$FACH" in
-  "Physics")     TEACHER="Lukas Herrwanger" ;;
-  "Math")        TEACHER="Cornelia Kessler" ;;
-  *)             TEACHER="LEHRER" ;;
+  "Physics")  TEACHER="Lukas Herrwanger" ;;
+  "Math")     TEACHER="Cornelia Kessler" ;;
+  *)          TEACHER="LEHRER" ;;
 esac
 
 # 4. Ordner & Nummerierung ermitteln
@@ -152,7 +158,6 @@ DATEIPFAD="$ZIELORDNER/$DATEINAME"
 if [ -f "$DATEIPFAD" ]; then
   echo -e "\nDas Dokument existiert bereits! Öffne bestehende Datei..."
 else
-  # HIER AUF TEM_ GEÄNDERT
   TEMPLATE_FILE="$TEMPLATE_DIR/TEM_${ART}.ott"
 
   if [ -f "$TEMPLATE_FILE" ]; then
@@ -161,7 +166,6 @@ else
     TMP_DIR=$(mktemp -d)
 
     soffice --headless --convert-to odt "$TEMPLATE_FILE" --outdir "$TMP_DIR" >/dev/null 2>&1
-    # HIER AUCH AUF TEM_ GEÄNDERT
     CONVERTED_ODT="$TMP_DIR/TEM_${ART}.odt"
 
     if [ -f "$CONVERTED_ODT" ]; then
