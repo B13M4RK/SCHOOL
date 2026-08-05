@@ -37,7 +37,7 @@ FAECHER_FOLDER=(
   "English"
   "German"
   "History"
-  "Math"
+  "Math_Core"
   "PE"
   "Physics"
   "Religion"
@@ -54,9 +54,9 @@ FACH="${FAECHER_FOLDER[$((WAHL_FACH-1))]}"
 
 # Spezifische Kürzel für Mathe Core und Mathe Advanced, sonst Standard (erste 3 Buchstaben)
 case "$FACH" in
-  "Math")     FACH_SHORT="MAC" ;;
-  "Math_Adv") FACH_SHORT="MAA" ;;
-  *)          FACH_SHORT=$(echo "$FACH" | cut -c1-3 | tr '[:lower:]' '[:upper:]') ;;
+  "Math_Core") FACH_SHORT="MAC" ;;
+  "Math_Adv")  FACH_SHORT="MAA" ;;
+  *)           FACH_SHORT=$(echo "$FACH" | cut -c1-3 | tr '[:lower:]' '[:upper:]') ;;
 esac
 
 # Basis-Pfad & Template-Pfad
@@ -83,9 +83,9 @@ esac
 
 # --- LEHRKRAFT ZUWEISEN ---
 case "$FACH" in
-  "Physics")  TEACHER="Lukas Herrwanger" ;;
-  "Math")     TEACHER="Cornelia Kessler" ;;
-  *)          TEACHER="LEHRER" ;;
+  "Physics")   TEACHER="Lukas Herrwanger" ;;
+  "Math_Core") TEACHER="Cornelia Kessler" ;;
+  *)           TEACHER="LEHRER" ;;
 esac
 
 # 4. Ordner & Nummerierung ermitteln
