@@ -28,7 +28,7 @@ Das ist mein zentrales Repository für die Oberstufe. Hier findest du alle Notiz
 
 Kapitel 1 - Name
 
-* [Zusammenfassung](./Subjects/Physics/CHA_01_NAME/PHY_SUM_01_NAME.pdf)
+* [Zusammenfassung](./PDFs)
 * [Aufgaben](./Subjects/Physics/CHA_01_NAME/PHY_EXE_01.pdf)
 
 Kapitel 2 - Name
